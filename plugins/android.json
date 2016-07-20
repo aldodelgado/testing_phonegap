@@ -12,9 +12,6 @@
         },
         "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "com.pda.recoverylibrary"
-        },
-        "com.phonegap.plugins.PushPlugin": {
-            "PACKAGE_NAME": "com.pda.recoverylibrary"
         }
     },
     "dependent_plugins": {}
