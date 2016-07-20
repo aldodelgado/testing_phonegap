@@ -23,8 +23,9 @@
             app.initialize();
             document.addEventListener("deviceready", onDeviceReady, false);
             function onDeviceReady() {
-                window.open = cordova.InAppBrowser.open("https://www.recoverylibrary.com", '_blank', 'location=no');
+                window.open = cordova.InAppBrowser.open("http://localhost:5000", '_blank', 'location=no', 'EnableViewPortScale=no');
             }
         </script>
+        <script type="text/javascript" src="js/PushNotification.js"></script>
     </body>
 </html>

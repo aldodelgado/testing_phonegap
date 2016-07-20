@@ -623,7 +623,8 @@ public class InAppBrowser extends CordovaPlugin {
                 AmazonWebSettings settings = inAppWebView.getSettings();
                 settings.setJavaScriptEnabled(true);
                 settings.setJavaScriptCanOpenWindowsAutomatically(true);
-                settings.setBuiltInZoomControls(getShowZoomControls());
+                //settings.setBuiltInZoomControls(getShowZoomControls());
+                settings.setBuiltInZoomControls(false);
                 settings.setPluginState(com.amazon.android.webkit.AmazonWebSettings.PluginState.ON);
 
                 //Toggle whether this is enabled or not!

@@ -18,6 +18,9 @@
     <feature name="InAppBrowser">
         <param name="ios-package" value="CDVInAppBrowser" />
     </feature>
+    <feature name="PushPlugin">
+        <param name="ios-package" value="PushPlugin" />
+    </feature>
     <name>RECOVERYlibrary</name>
     <description>A community of hope to support people in recovery.</description>
     <author email="support@patdeegan.com" href="https://www.patdeegan.com">PDA Team</author>
